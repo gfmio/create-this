@@ -1,0 +1,15 @@
+{
+  "name": "create-this",
+  "version": "0.0.0",
+  "description": "",
+  "repository": "https://github.com/gfmio/create-this",
+  "author": {
+    "email": "npm@gfm.io",
+    "name": "Frédérique Mittelstaedt",
+    "url": "https://www.gfm.io"
+  },
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "bin": "index.js"
+}
