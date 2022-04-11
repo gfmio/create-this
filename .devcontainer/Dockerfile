@@ -15,7 +15,7 @@ RUN apt-get update && apt-get -y install --no-install-recommends zsh curl git su
 RUN echo "root:root" | chpasswd
 
 # Add the non-root user
-RUN adduser vscode --shell /bin/zsh
+RUN adduser vscode --shell /bin/zsh --disabled-password --gecos ""
 RUN adduser vscode sudo
 RUN echo "vscode:vscode" | chpasswd
 
