@@ -7,7 +7,7 @@
 		// Update 'VARIANT' to pick a Node version: 16, 14, 12.
 		// Append -bullseye or -buster to pin to an OS version.
 		// Use -bullseye variants on local on arm64/Apple Silicon.
-		"args": { 
+		"args": {
 			"VARIANT": "17.8-bullseye-slim"
 		}
 	},
@@ -23,7 +23,8 @@
 		"eg2.vscode-npm-script",
 		"ms-azuretools.vscode-docker",
 		"davidanson.vscode-markdownlint",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+    "editorconfig.editorconfig"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
