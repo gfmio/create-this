@@ -9,7 +9,7 @@ ENV LC_ALL C.UTF-8
 ENV LANG C.UTF-8
 
 # Install packages
-RUN apt-get update && apt-get -y install --no-install-recommends zsh curl git sudo
+RUN apt-get update && apt-get -y install --no-install-recommends zsh curl git sudo ca-certificates
 
 # Set the root password
 RUN echo "root:root" | chpasswd
