@@ -8,6 +8,9 @@
     "name": "Frédérique Mittelstaedt",
     "url": "https://www.gfm.io"
   },
+  "scripts": {
+    "devcontainer:postCreateCommand": "yarn install"
+  },
   "license": "MIT",
   "private": false,
   "main": "index.js",
