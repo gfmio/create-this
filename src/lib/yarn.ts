@@ -36,6 +36,12 @@ export const identifyBinaryName = async ({
   stdout: string[];
   stderr: string[];
 }) => {
+  // Sometimes the last line is `Done in x.xxs.`. Other times, it is missing.
+  // We ignore it if it is present.
+  if (stdout[stdout.length - 1]?.startsWith("Done in")) {
+    stdout.pop();
+  }
+
   if (stdout[stdout.length - 2]?.startsWith("success Installed")) {
     const binaryName = stdout[stdout.length - 1]?.trim().slice(2);
     if (!binaryName) {
