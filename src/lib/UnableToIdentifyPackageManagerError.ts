@@ -1,4 +1,4 @@
-import ExtendableError from "ts-error";
+import { ExtendableError } from "ts-error";
 
 export class UnableToIdentifyPackageManagerError extends ExtendableError {
   constructor() {
