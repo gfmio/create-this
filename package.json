@@ -1,6 +1,6 @@
 {
   "name": "create-this",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A convenience utility for dynamically invoking other starter kits from arbitrary sources",
   "repository": "https://github.com/gfmio/create-this",
   "author": {
