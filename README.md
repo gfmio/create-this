@@ -7,10 +7,23 @@ It is most useful for conveniently invoking starter kits in private
 repositories, from scoped packages, private packages or private registries.
 
 ```sh
+# With npm
+npx create-this git+ssh://git@github.com/user/repo.git
+npx create-this my-private-package
+npx create-this @myorg/some-package
+npx create-this ./path/to/my/package
+
+# With yarn
 yarn create this git+ssh://git@github.com/user/repo.git
 yarn create this my-private-package
 yarn create this @myorg/some-package
 yarn create this ./path/to/my/package
+
+# With pnpm
+pnpm create this git+ssh://git@github.com/user/repo.git
+pnpm create this my-private-package
+pnpm create this @myorg/some-package
+pnpm create this ./path/to/my/package
 ```
 
 ## Usage
