@@ -30,8 +30,8 @@
   "scripts": {
     "start": "node ./dist/cli.js",
     "build": "yarn build:lib && yarn build:cli",
-    "build:lib": "tsup src/index.ts --format cjs,esm --dts --minify",
-    "build:cli": "tsup src/cli.ts --format cjs --minify",
+    "build:lib": "tsup src/index.ts --format cjs,esm --dts",
+    "build:cli": "tsup src/cli.ts --format cjs",
     "lint": "exit 0",
     "fmt": "exit 0",
     "test": "exit 0"
