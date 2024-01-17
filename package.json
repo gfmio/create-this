@@ -19,6 +19,15 @@
     "./LICENSE",
     "./README.md"
   ],
+  "exports": {
+    ".": {
+      "default": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "node": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
     "start": "node ./dist/cli.js",
     "build": "yarn build:lib && yarn build:cli",
