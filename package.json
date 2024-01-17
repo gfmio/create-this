@@ -11,5 +11,15 @@
   "license": "MIT",
   "private": false,
   "main": "index.js",
-  "bin": "index.js"
+  "bin": "index.js",
+  "scripts": {
+    "build": "exit 0",
+    "tsc": "exit 0",
+    "lint": "exit 0",
+    "fmt": "exit 0",
+    "test": "exit 0",
+    "devcontainer:postCreateCommand": "yarn install",
+    "publish": "exit 0",
+    "publish:dryRun": "exit 0"
+  }
 }
