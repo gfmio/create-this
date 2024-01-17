@@ -1293,10 +1293,10 @@ source-map@0.8.0-beta.0:
   dependencies:
     whatwg-url "^7.0.0"
 
-spawnable@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/spawnable/-/spawnable-0.1.0.tgz#bc2c535532d54379353b9ae2c1209a4ab3691b7c"
-  integrity sha512-aOiyXyhqy0a8SfkO2kXMUG7o+kzpNZV1EMNAfqdjXD9H8e5etL/BTuJ415VQIEjFMxuq1LitoTqLCky6v+ITBQ==
+spawnable@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.npmjs.org/spawnable/-/spawnable-0.1.2.tgz#867f6c26b8f676035998696937853e8350efec8d"
+  integrity sha512-CcDrOgCD6b0wxMqJMiiFltulP1Yjop2RGT2DlUla/gh+NePYhLk7MG8elMNA++fzdsc0u/zHas4Lh/tRznHUeQ==
   dependencies:
     "@types/node" "*"
     eventemitter3 "^5.0.1"
